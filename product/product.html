@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <!--IE以最高模式渲染-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="renderer" content="webkit">
+    <title>易快报—简单好用的移动报销应用,专业易用的手机报销软件</title>
+    <meta name="keywords" content="易快报,报销,免费,好用,移动,报销软件,易用,手机报销，最好用,财务报销,企业报销,报销流程,电子报销单">
+    <meta name="description"
+          content="“易快报”是一款敏捷的费用报销应用,面向企业提供专业的费用报销和管理服务。易快报带来互联网 时代的全新报销方式,打通报销全流程,全方位解决企业报销痛点,可彻底取代纸质报销模式和传统在 线报销,不仅能够帮助企业实现高效、规范的费用报销,还能让每个用户体验到移动报销带来的轻松便捷,从此“让报销成为快事一件”。">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/product.css">
+</head>
+<body class="product-body">
+<!-- 导航栏 start-->
+<div class="product-nav">
+    <div class="wrap">
+        <div class="nav">
+            <div class="logo"><a href="index.html"></a></div>
+            <div class="form"><a class="login font-h5" href="https://www.ekuaibao.com/hose-web2/v2/index.html#/login">登录</a> <a
+                    class="register font-h5" href="https://www.ekuaibao.com/hose-web/reguser.html">免费注册</a></div>
+            <div class="menu">
+                <ul id="bar">
+                    <li ><a class="font-h5" href="index.html">首页</a></li>
+                    <li class="current" ><a class="font-h5" href="product.html">产品</a></li>
+                    <li><a class="font-h5" href="news-list.html">动态</a></li>
+                    <li><a class="font-h5" href="help.html">帮助</a></li>
+                    <li><a class="font-h5" href="index.html#down">下载</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="moble-nav">
+            <div class="top">
+                <div class="logo"><a href="index.html"></a></div>
+                <button class="button" type="button"></button>
+            </div>
+            <ul class="sub-menu">
+                <li class="font-h4"><a href="index.html" >首页</a></li>
+                <li class="font-h4"><a href="product.html"  class="current" >产品</a></li>
+                <li class="font-h4"><a href="news-list.html" >动态</a></li>
+                <li class="font-h4"><a href="help.html" >帮助</a></li>
+                <li class="font-h4"><a href="index.html#down" >下载</a></li>
+                <li class="font-h4"><a href="https://www.ekuaibao.com/hose-web2/v2/index.html#/login">登录</a></li>
+                <li class="font-h4"><a href="https://www.ekuaibao.com/hose-web/reguser.html">免费注册</a></li>
+            </ul>
+        </div>
+    </div>
+    <script src="js/jquery-3.1.1.js"></script>
+    <!--<script src="js/menu-partner.js"></script>-->
+</div>
+<!-- 产品页 头部 -->
+<div class="product-header">
+    <div class="header-title font-t1">不止是敏捷报销</div>
+    <div class="sub-title font-t2">易快报打通订购-报销-支付-记账全流程</div>
+    <div class="sub-title font-t2">全方位满足企业费控需求</div>
+    <div class="header-tag-wrapper">
+        <div>
+            <img src="./img/product/product-header-tag-center.png">
+            <p class="font-t4">报销管理平台</p>
+        </div>
+        <div class="tag-left">
+            <img src="./img/product/product-header-tag-left.png">
+            <p class="font-t4">易快报商城</p>
+        </div>
+        <div class="tag-right">
+            <img src="./img/product/product-header-tag-right.png">
+            <p class="font-t4">ERP插件</p>
+        </div>
+    </div>
+</div>
+
+<!-- 产品页 简介 -->
+<div class="product-intro">
+    <p class="intro-title font-t1">易快报 企业消费和报销管理解决方案</p>
+    <div class="intro-wrapper">
+        <img src="./img/product/product-intro-box-right.png" class="intro-box-right">
+        <!--<div class="inner-wrapper">-->
+        <img src="./img/product/product-intro-box-center11.png" class="intro-box-center1">
+        <img src="./img/product/product-intro-box-center12.png" class="intro-box-center2">
+        <img src="./img/product/product-intro-box-center13.png" class="intro-box-center3">
+        <div class="intro-wrapper-leftBox">
+            <img src="./img/product/product-intro-box-left1.png" class="intro-box-left-top">
+            <img src="./img/product/product-intro-box-left2.png" class="intro-box-left-center">
+            <img src="./img/product/product-intro-box-left3.png" class="intro-box-left-bottom">
+        </div>
+        <!--<img src="./img/product/product-intro-box-bottom.png" class="intro-box-bottom">-->
+        <!--</div>-->
+        <img src="./img/product/product-intro-box-bottom.png" class="intro-box-bottom">
+    </div>
+</div>
+
+<!-- 产品页 移动报销平台 -->
+<div class="product-platform" id="product-platform">
+    <div class="platform-wrapper">
+        <p class="platform-title font-t1">智能移动报销平台</p>
+        <p class="sub-title font-t3">可随时随地提交和审批，告别手填单据时代</p>
+        <div class="inner-wrapper">
+            <img class="arrow-right" src="./img/product/product-platform-arrow-right.png">
+            <img class="arrow-left" src="./img/product/product-platform-arrow-left.png">
+            <div class="column column-left">
+                <div id="platform-animate-tag-left" class="tag-box">
+                    <div class="tag-title">
+                        <img src="./img/product/product-platform-tag-apply.png">
+                        <span class="font-t6">申请</span>
+                    </div>
+                    <p class="font-t4">一站式差旅服务</p>
+                    <p class="font-t4">打通申请-订票-报销</p>
+                </div>
+                <img id="platform-animate-phone-left" class="platform-phone"
+                     src="./img/product/product-platform-tag-apply-phone.png">
+            </div>
+            <div class="column column-center">
+                <div id="platform-animate-tag-center" class="tag-box">
+                    <div class="tag-title">
+                        <img src="./img/product/product-platform-tag-expense.png">
+                        <span class="font-t6">报销</span>
+                    </div>
+                    <p class="font-t4">随时随地智能报销</p>
+                    <p class="font-t4">让报销成为快事一件</p>
+                </div>
+                <img id="platform-animate-phone-center" class="platform-phone"
+                     src="./img/product/product-platform-tag-expense-phone.png">
+            </div>
+            <div class="column column-right">
+                <div id="platform-animate-tag-right" class="tag-box">
+                    <div class="tag-title">
+                        <img src="./img/product/product-platform-tag-loan.png">
+                        <span class="font-t6">借款</span>
+                    </div>
+                    <p class="font-t4">借款与报销实时冲销</p>
+                    <p class="font-t4">让借款管理更轻松</p>
+                </div>
+                <img id="platform-animate-phone-right" class="platform-phone"
+                     src="./img/product/product-platform-tag-loan-phone.png">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 产品页 审批流程 -->
+<div class="product-flow">
+    <p class="flow-title font-t6">自定义审批流</p>
+    <p class="sub-title font-t3">全方位满足企业宽严并济的管理方式，有效规范审批流程监管</p>
+    <div class="box-wrapper">
+        <img class="screenshot" src="./img/product/product-flow-screenshot.png">
+        <div class="flow-box">
+            <div class="img-wrapper">
+                <img class="img-wrapper" src="./img/product/product-flow-fixed.png">
+            </div>
+            <div class="img-wrapper">
+                <img class="img-wrapper" src="./img/product/product-flow-spring.png">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 产品页 费用控制 -->
+<div class="product-control">
+    <p class="control-title font-t6">全程费用控制</p>
+    <p class="font-t3 sub-title">跟踪预算执行进度和花费详情，实现事前预算-事中控制-事后分析的精细费用管控</p>
+    <div class="font-t3 control-sub-title-wrapper color-red">
+        <div class="control-sub-title"><img src="./img/product/product-control-dot.png">个人</div>
+        <div class="control-sub-title"><img src="./img/product/product-control-dot.png">项目</div>
+        <div class="control-sub-title"><img src="./img/product/product-control-dot.png">部门</div>
+        <div class="control-sub-title"><img src="./img/product/product-control-dot.png">消费类型</div>
+    </div>
+    <div class="panel-wrapper">
+        <div class="circle-panel-wrapper">
+            <img class="circle-panel" src="./img/product/product-control-panel.png">
+            <div class="value-wrapper">
+                <img src="./img/product/product-control-panel-value.png" class="panel-value">
+            </div>
+            <div class="modal-wrapper">
+                <img class="panel-modal" src="./img/product/product-control-panel-modal.png">
+            </div>
+            <div class="pointer-wrapper">
+                <div class="pointer-inner-wrapper">
+                    <img class="circle-gray" src="./img/product/product-control-circle-gray.png">
+                    <div class="circle-red-wrapper">
+                        <img class="circle-red" src="./img/product/product-control-circle-red.png">
+                    </div>
+                    <div class="panel-pointer-wrapper">
+                        <img class="panel-pointer" src="./img/product/product-control-pointer.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 产品页 第三方导入 -->
+<div class="product-import">
+    <p class="import-title font-t6">导入第三方消费</p>
+    <p class="font-t3 sub-title">一键导入消费明细，确保费用真实透明</p>
+    <div class="import-wrapper">
+        <img src="./img/product/product-import-phone.png" class="import-phone">
+        <img src="./img/product/product-import-ctrip-modal.png" class="ctrip-modal">
+        <div class="surport-wrapper">
+            <!--<p class="font-t3">支持导入以下平台</p>-->
+            <!--<img class="surport-img" src="./img/product/product-import-surport.png">-->
+            <!--<p class="font-t5">更多平台敬请期待</p>-->
+            <img class="surport-img" src="./img/product/product-import-surport-compound.png">
+        </div>
+        <img src="./img/product/product-import-ctrip-shadow.png" class="phone-shadow">
+    </div>
+</div>
+
+<!-- 产品页 报销自定义 -->
+<div class="product-custom">
+    <p class="custom-title font-t6 color-blue">支持自定义</p>
+    <p  class="full-line sub-title font-t3 color-blue">满足企业个性化报销需求，让员工轻松适应报销规范</p>
+    <div class="break-line">
+        <p class="sub-title font-t3 color-blue">满足企业个性化报销需求，让员工</p>
+        <p class="sub-title font-t3 color-blue mt-0">轻松适应报销规范</p>
+    </div>
+    <div class="custom-btn-wrapper color-blue">
+        <div id="custom-btn-fee" class="custom-btn">
+            <img src="./img/product/product-custom-icon-fee.png">
+            <p class="font-t4">多级消费类型</p>
+        </div>
+        <div id="custom-btn-template" class="custom-btn">
+            <img src="./img/product/product-custom-icon-template.png">
+            <p class="font-t4 ">单据模板</p>
+        </div>
+        <div id="custom-btn-project" class="custom-btn">
+            <img src="./img/product/product-custom-icon-project.png">
+            <p class="font-t4 ">项目</p>
+        </div>
+    </div>
+    <div class="custom-pic-wrapper">
+        <img id="custom-pic-fee" src="./img/product/product-custom-pic-fee.png">
+        <img id="custom-pic-template" src="./img/product/product-custom-pic-template.png">
+        <img id="custom-pic-project" src="./img/product/product-custom-pic-project.png">
+    </div>
+</div>
+
+<!-- 产品页 报表 -->
+<div class="product-statement">
+    <p class="statement-title font-t6">多维度可穿透报表</p>
+    <p class="sub-title font-t3">穿透追踪企业花费来源，实现精细化财务分析</p>
+    <p class="statement-distance-control font-t3">为业务决策提供数据支撑</p>
+    <div class="statement-wrapper">
+        <img src="./img/product/product-statement-table-bottom3.png" class="table-bottom">
+        <img src="./img/product/product-statement-table-point.png" class="table-bottom-point">
+        <img src="./img/product/product-statement-table-line.png" class="table-bottom-line">
+        <img src="./img/product/product-statement-table-center2.png" class="table-center">
+        <img src="./img/product/product-statement-table-point.png" class="table-center-point">
+        <img src="./img/product/product-statement-table-line.png" class="table-center-line">
+        <img src="./img/product/product-statement-table-top.png" class="table-top">
+    </div>
+</div>
+
+<!-- 产品页 一站式服务 -->
+<div class="product-service" id="product-service">
+    <div class="service-wrapper">
+        <p class="service-title font-t1">“敏捷报销+财务记账”的一站式体验</p>
+        <p class="sub-title font-t3">报销单一键生成财务凭证，从此告别繁琐的誊抄记账</p>
+        <div class="service-inner-wrapper">
+            <img src="./img/product/product-service-border.png" class="service-border">
+            <img src="./img/product/product-service-expense.png" class="service-expense">
+            <img src="./img/index/index-erp-animate-2.png" class="service-arrow">
+            <img src="./img/index/index-erp-animate-3.png" class="service-bill">
+            <img src="./img/index/index-erp-animate-4.png" class="service-success">
+            <p class="font-t3 mt-25">已成功对接ERP软件</p>
+            <p class="font-t4 mt-10">用友：
+                <text class="service-text color-red">T+、T3、T6、U8、NC</text>
+                <text class="product-line-break">金蝶：
+                    <text class="color-blue">KIS、K/3 Wise 、K/3 Cloud、EAS</text>
+                </text>
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- 产品页 商城 -->
+<div class="product-mall" id="product-mall">
+    <div class="mall-wrapper">
+        <p class="mall-title font-t1">易快报商城</p>
+        <p class="sub-title font-t3">超低价格，透明消费，让成本一省到底</p>
+        <div class="mall-inner-wrapper">
+            <div class="mall-tag-wrapper">
+                <div class="mall-tag-box">
+                    <img src="./img/product/product-mall-tag-integration.png">
+                    <p class="font-t4">一站式订购</p>
+                    <p class="font-t4">无需跳转多个平台</p>
+                </div>
+                <div class="mall-tag-box">
+                    <img src="./img/product/product-mall-tag-travel.png">
+                    <p class="font-t4">企业统一订票</p>
+                    <p class="font-t4">员工自主订票</p>
+                </div>
+                <div class="mall-tag-box">
+                    <img src="./img/product/product-mall-tag-payback.png">
+                    <p class="font-t4">超低价格，一省到底</p>
+                    <p class="font-t4">零门槛，零服务费</p>
+                </div>
+                <div class="mall-tag-box">
+                    <img src="./img/product/product-mall-tag-import.png">
+                    <p class="font-t4">一键导入消费即可报销</p>
+                    <p class="font-t4">更便捷更透明</p>
+                </div>
+            </div>
+            <div class="mall-phone-wrapper">
+                <img src="./img/product/product-mall-iconPhone.png" class="mall-iconPhone">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 尾部 -->
+<!--<div class="footer">
+    <div class="footer-main">
+        <ul>
+            <li>
+                <div>公司</div>
+                <p><a href="about.html">关于我们</a></p>
+                <p><a href="contact.html">联系我们</a></p>
+                <p><a href="join.html">加入我们</a></p>
+                <p><a href="safe.html">安全说明</a></p>
+            </li>
+            <li class="footer-product">
+                <div>产品</div>
+                <p><a href="product.html">功能介绍</a></p>
+                <p><a href="index.html#down" name="down">产品下载</a></p>
+            </li>
+            <li class="footer-news">
+                <div>动态</div>
+                <p><a href="news-list.html">产品更新</a></p>
+                <p><a href="media-list.html?type=4">媒体报道</a></p>
+                <p><a href="media-list.html?type=11">市场动态</a></p>
+            </li>
+            <li>
+                <div>帮助</div>
+                <p><a href="help.html">操作指南</a></p>
+                <p><a href="faq.html">常见问题</a></p>
+                <p><a href="video.html">教学视频</a></p>
+            </li>
+            <li class="footer-partner">
+                <div>战略合作</div>
+                <p><a href="https://www.dingtalk.com/" target="_blank">钉钉</a></p>
+                <p><a href="http://www.yunzhijia.com/" target="_blank">云之家</a></p>
+                <p><a href="https://qy.weixin.qq.com/" target="_blank">微信企业号</a></p>
+                <p><a href="https://gzq.chanjet.com/" target="_blank">工作圈</a></p>
+            </li>
+            <li class="footer-contact">
+                <div>快速联系</div>
+                <p class="mt-20">＋86 400-999-8293</p>
+                <p>周一至周五 9:00～18:00</p>
+                <div class="mt-40 footer-contact-other">
+                    <a class="footer-contact-wx" href="javscript:void(0)">
+                        <div class="footer-contact-wx-code"></div>
+                        <img src="./img/public-images/footer-contact-wx.png">
+                    </a>
+                    <a href="http://weibo.com/u/5536358575">
+                        <img src="./img/public-images/footer-contact-wb.png">
+                    </a>
+                    &lt;!&ndash;QQ客服接口&ndash;&gt;
+                    &lt;!&ndash;<a href="http://wpa.qq.com/msgrd?v=3&uin=3239937852&site=qq&menu=yes">&ndash;&gt;
+                    &lt;!&ndash;<a href="https://ekuaibao.kf5.com/kchat/21871?from=%E5%9C%A8%E7%BA%BF%E6%94%AF%E6%8C%81">&ndash;&gt;
+                    &lt;!&ndash;逸创云客服&ndash;&gt;
+                    <a id="footer-serviceBtn">
+                        <img src="./img/public-images/footer-contact-kf5.png">
+                    </a>
+                    <a href="mailto:service@ekuaibao.com">
+                        <img src="./img/public-images/footer-contact-mail.png">
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="footer-sub">
+        <div class="footer-sub-icp">
+            <span>京ICP备15012053号-1</span>
+            <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802020788" target="_blank">
+                <span><img src="./img/public-images/footer-ga.png"></span>
+                <span>京公网安备11010802020788号</span>
+            </a>
+        </div>
+        <div class="footer-sub-safe">
+            <a target="_blank"
+               href="https://trustsealinfo.websecurity.norton.com/splash?form_file=fdf/splash.fdf&dn=www.ekuaibao.com&lang=zh_cn">
+                <img src="./img/public-images/footer-norton.png">
+            </a>
+            <a href="https://ss.knet.cn/verifyseal.dll?sn=e150529110108589239l1x000000" target="_blank">
+                <img src="./img/public-images/footer-kx.png">
+            </a>
+        </div>
+    </div>
+</div>
+<div class="customer-service">
+    <ul>
+        <li class="qq-service">
+            &lt;!&ndash;<a title="咨询" href="https://ekuaibao.kf5.com/kchat/21871?from=%E5%9C%A8%E7%BA%BF%E6%94%AF%E6%8C%81" target="_blank">&ndash;&gt;
+            <a title="咨询" id="tool-serviceBtn" target="_blank">
+                <span class="icon"></span>
+                <span class="text"></span>
+            </a>
+            &lt;!&ndash;<a title="咨询" href="http://wpa.qq.com/msgrd?v=3&uin=3239937852&site=qq&menu=yes" target="_blank">&ndash;&gt;
+            &lt;!&ndash;<span class="icon"></span>&ndash;&gt;
+            &lt;!&ndash;<span class="text"></span>&ndash;&gt;
+            &lt;!&ndash;</a>&ndash;&gt;
+            <div class="tips">
+                <div class="con">
+                    &lt;!&ndash;<h2>合作咨询、问题反馈</h2>&ndash;&gt;
+                    <h2>点击联系在线客服</h2>
+                </div>
+                <i class="arrow-right"></i></div>
+        </li>
+        <li class="tel-service"><a title="电话"><span class="icon"></span><span class="text"></span></a>
+            <div class="tips">
+                <div class="con">
+                    <h2>400-999-8293</h2>
+                    <h3>周一至周五每天 9:00-18:00</h3>
+                </div>
+                <i class="arrow-right"></i></div>
+        </li>
+        <li class="wx-service">
+            <a title="微信"><span class="icon"></span><span class="text"></span></a>
+            <div class="tips">
+                <div class="con">
+                    <img src="img/home/ekb_qrcode.jpg">
+                </div>
+                <i class="arrow-right"></i>
+            </div>
+        </li>
+        <li class="dd-service">
+            <a title="钉钉"><span class="icon"></span><span class="text"></span></a>
+            <div class="tips">
+                <div class="con">
+                    <img src="img/home/ekb_ddcode.jpg">
+                </div>
+                <i class="arrow-right"></i>
+            </div>
+        </li>
+    </ul>
+</div>-->
+
+<!--<script src="js/index.js"></script>-->
+
+<!-- Start of KF5 supportbox script -->
+<!-- 逸创云客服 -->
+<script src="//assets.kf5.com/supportbox/main.js" id="kf5-provide-supportBox" kf5-domain="ekuaibao.kf5.com"></script>
+<!--https://support.kf5.com/hc/kb/article/112269/-->
+<script type="text/javascript">
+    if (typeof window.KF5SupportBoxAPI != 'undefined') {
+        var supportBox = window.KF5SupportBoxAPI;
+        supportBox.ready(function () {
+            supportBox.removeButton();
+            $('#tool-serviceBtn').click(function () {
+                supportBox.open(function () {});
+            });
+            $('#footer-serviceBtn').click(function () {
+                supportBox.open(function () {});
+            })
+        });
+    }
+</script>
+<!-- End of KF5 supportbox script -->
+
+<script>
+    /* 谷歌Analytics（分析）是最流行的网站统计服务。它有多种用途：跟踪访问者的会话活动和事件。*/
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-63704732-1', 'auto');
+    ga('send', 'pageview');
+</script>
+<script>
+    /* 跨域 */
+/*    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?d78ef535aafb3c812f8d4a6c2b753261";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();*/
+</script>
+<script src="js/jquery-3.1.1.js"></script>
+<script type="text/javascript">
+   $(function ($) {
+        // 报销自定义模板的按钮控制
+        $('#custom-btn-fee').hover(function () {
+            $('#custom-pic-fee').stop().animate({ opacity : "1" }, 800);
+            $('#custom-pic-template').stop().animate({ opacity : "0" }, 800);
+            $('#custom-pic-project').stop().animate({ opacity : "0" }, 800);
+
+        }, function () {});
+        $('#custom-btn-template').hover(function () {
+            $('#custom-pic-template').stop().animate({ opacity : "1" }, 800);
+            $('#custom-pic-fee').stop().animate({ opacity : "0" }, 800);
+            $('#custom-pic-project').stop().animate({ opacity : "0" }, 800);
+        }, function () {});
+
+        $('#custom-btn-project').hover(function () {
+            $('#custom-pic-project').stop().animate({ opacity : "1" }, 800);
+            $('#custom-pic-template').stop().animate({ opacity : "0" }, 800);
+            $('#custom-pic-fee').stop().animate({ opacity : "0" }, 800);
+        }, function () {});
+
+        // 参数
+//        var winTop = 0;
+
+        // 根据偏移量判断是否展示动画
+/*        function dynamicAddClass(element) {
+
+            $(window).scroll(function () {
+                console.log(1);
+                var elementTop = $(element).offset().top;
+                winTop = $(window).scrollTop();
+                if (winTop > elementTop - 200) {
+                    $(element).stop().addClass('animate');
+                } else {
+                    //回滚效果开关
+//          $(element).stop().removeClass('animate');
+                }
+            });
+        }*/
+
+        // 解决锚点跳转时，无法触发动画的BUG
+       //触发浏览器 的监听滚动
+        if (window.location.hash === '#product-service') {
+            $("html").animate({ scrollTop : $(".product-service").offset().top + 1 }, 1000)
+        } else if (window.location.hash === '#product-mall') {
+            $("html").animate({ scrollTop : $(".product-mall").offset().top + 1 }, 1000)
+        } else if (window.location.hash === '#product-platform') {
+            $("html").animate({ scrollTop : $(".product-platform").offset().top + 1 }, 1000)
+        }
+
+        // 添加动画
+      /*  dynamicAddClass('.product-intro');      // 动画 - 简介
+        dynamicAddClass('.product-platform');   // 动画 - 平台部分
+        dynamicAddClass('.product-flow');       // 动画 - 审批流程
+        dynamicAddClass('.product-control');    // 动画 - 费用控制
+        dynamicAddClass('.product-import');     // 动画 - 第三方导入
+        dynamicAddClass('.product-custom');     // 动画 - 报销自定义
+        dynamicAddClass('.product-statement');  // 动画 - 报表
+        dynamicAddClass('.product-service');    // 动画 - 一站式服务
+        dynamicAddClass('.product-mall');       // 动画 - 商城*/
+
+    });
+
+$(function ($) {
+        // 添加动画
+        var arr = ['.product-intro','.product-platform','.product-flow','.product-control','.product-import','.product-custom','.product-statement' ,'.product-service','.product-mall'];
+        var disArr = [];
+        var elementTop =0;
+        var winTop = $(window).scrollTop();
+        $.each(arr,function (index,value) {
+            elementTop = $(value).offset().top;
+            disArr.push(elementTop);
+        })
+        console.log(disArr);
+        $(window).scroll(function () {
+
+            winTop = $(window).scrollTop();
+            $.each(disArr, function (index, value) {
+                if (winTop > value - 200) {
+                    // stop 停止队列中的任务, 进行当前任务
+                    console.log(arr[index]);
+                    $(arr[index]).stop().addClass('animate');
+                } else {
+                    //回滚开关
+//                $(element).stop().removeClass('animate');
+                }
+            })
+        })
+
+
+})
+</script>
+</body>
+</html>
